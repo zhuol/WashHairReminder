@@ -8,13 +8,14 @@
 
 import Foundation
 
-class FriendRead : UIViewController {
+class TellMe : UIViewController {
     
-    let washHairStartingDate = "2016-10-31"
+    let defaultStartingDate = "2016-10-31"
     
     @IBOutlet weak var TellMeWashHairOrNot: UIButton!
     @IBOutlet weak var washHairResult: UILabel!
     @IBOutlet weak var currentDate: UILabel!
+    @IBOutlet weak var frequency: UILabel!
     
     override func viewDidLoad() {
         UIApplication.shared.isStatusBarHidden = true
@@ -22,6 +23,19 @@ class FriendRead : UIViewController {
         
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
+        // Current date
+        let date = NSDate()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let dateString = dateFormatter.string(from: date as Date)
+        currentDate.text = "Today is " + dateString
+        
+        // Current Frequency
+        // TODO: Handle empty value for the first time
+        frequency.text = "Frequency is " + "\(Int(UserDefaults.standard.integer(forKey: "frequency")))"
+        
+        // Default Start Date
+        //UserDefaults.standard.set(defaultStartingDate, forKey: "startDate")
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,8 +43,7 @@ class FriendRead : UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func daysBetweenDates(startDate: NSDate, endDate: NSDate) -> Int
-    {
+    func daysBetweenDates(startDate: NSDate, endDate: NSDate) -> Int {
         let calendar = NSCalendar.current as NSCalendar
         
         // Replace the hour (time) of both dates with 00:00
@@ -44,17 +57,18 @@ class FriendRead : UIViewController {
     }
     
     @IBAction func TellMeWashHairOrNot(_ sender: AnyObject) {
-        let date = NSDate()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
-        let dateString = dateFormatter.string(from: date as Date)
-        currentDate.text = dateString
         
-        dateFormatter.dateFormat = "yyyy-MM-dd"
-        let startDate = dateFormatter.date(from: washHairStartingDate)!
+        // TODO: Handle empty value for the first time
+        let currentStartDate = UserDefaults.standard.string(forKey: "startDate")
+        let startDate = dateFormatter.date(from: currentStartDate!)!
         
         let daysDiff = daysBetweenDates(startDate: startDate as NSDate, endDate: Date() as NSDate)
-        if(daysDiff % 2 == 0){
+        
+        // TODO: Handle empty value for the first time
+        let currentFrequency = UserDefaults.standard.integer(forKey: "frequency")
+        if(daysDiff % currentFrequency == 0){
             washHairResult.text = "Wash Hair Today"
         }
         else{

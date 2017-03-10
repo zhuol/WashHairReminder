@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ReadLater : UIViewController {
+class Analysis : UIViewController {
     
     override func viewDidLoad() {
         UIApplication.shared.isStatusBarHidden = true

@@ -16,7 +16,7 @@ class BackTableVC: UITableViewController {
         TableArrary = ["TellMe", "Settings", "Analysis"]
         self.tableView.tableFooterView = UIView(frame: CGRect.zero)
         self.tableView.separatorColor = UIColor(red:0.159, green:0.156, blue:0.181, alpha:1)
-        self.view.backgroundColor = UIColor.black
+        self.view.backgroundColor = UIColor.lightGray
         UIApplication.shared.isStatusBarHidden = true
     }
     
