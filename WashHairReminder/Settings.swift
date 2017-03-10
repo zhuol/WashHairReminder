@@ -10,6 +10,8 @@ import Foundation
 
 class Settings : UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
+    let defaultStartingDate = "2016-10-31"
+    
     @IBOutlet weak var frequencyPicker: UIPickerView!
     @IBOutlet weak var startDatePicker: UIDatePicker!
     
@@ -28,8 +30,8 @@ class Settings : UIViewController, UIPickerViewDataSource, UIPickerViewDelegate 
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         // TODO: Handle empty value for the first time
-        let currentStartDate = UserDefaults.standard.string(forKey: "startDate")
-        let date = dateFormatter.date(from: currentStartDate!)
+        let currentStartDate = UserDefaults.standard.string(forKey: "startDate") ?? defaultStartingDate
+        let date = dateFormatter.date(from: currentStartDate)
         startDatePicker.date = date!
         
         UIApplication.shared.isStatusBarHidden = true

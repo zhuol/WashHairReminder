@@ -11,6 +11,7 @@ import Foundation
 class TellMe : UIViewController {
     
     let defaultStartingDate = "2016-10-31"
+    let defaultFrequency = 1
     
     @IBOutlet weak var TellMeWashHairOrNot: UIButton!
     @IBOutlet weak var washHairResult: UILabel!
@@ -33,9 +34,6 @@ class TellMe : UIViewController {
         // Current Frequency
         // TODO: Handle empty value for the first time
         frequency.text = "Frequency is " + "\(Int(UserDefaults.standard.integer(forKey: "frequency")))"
-        
-        // Default Start Date
-        //UserDefaults.standard.set(defaultStartingDate, forKey: "startDate")
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,14 +58,15 @@ class TellMe : UIViewController {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         
-        // TODO: Handle empty value for the first time
-        let currentStartDate = UserDefaults.standard.string(forKey: "startDate")
-        let startDate = dateFormatter.date(from: currentStartDate!)!
+        let currentStartDate = UserDefaults.standard.string(forKey: "startDate") ?? defaultStartingDate
+        let startDate = dateFormatter.date(from: currentStartDate)!
         
         let daysDiff = daysBetweenDates(startDate: startDate as NSDate, endDate: Date() as NSDate)
         
-        // TODO: Handle empty value for the first time
-        let currentFrequency = UserDefaults.standard.integer(forKey: "frequency")
+        var currentFrequency = UserDefaults.standard.integer(forKey: "frequency")
+        if(currentFrequency <= 0){
+            currentFrequency = 1
+        }
         if(daysDiff % currentFrequency == 0){
             washHairResult.text = "Wash Hair Today"
         }
