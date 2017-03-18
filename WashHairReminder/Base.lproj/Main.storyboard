@@ -135,6 +135,9 @@
                                 <date key="date" timeIntervalSinceReferenceDate="510818370.13717401">
                                     <!--2017-03-10 05:59:30 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="datePickerDidSelectNewDate:" destination="bPn-DQ-PJm" eventType="valueChanged" id="wnK-3X-10B"/>
+                                </connections>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequency (days):" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adj-f4-PAu">
                                 <rect key="frame" x="0.0" y="380" width="414" height="60"/>

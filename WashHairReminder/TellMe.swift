@@ -36,6 +36,14 @@ class TellMe : UIViewController {
         // Current Frequency
         // TODO: Handle empty value for the first time
         currentFrequencyValue.text = "Every " + "\(Int(UserDefaults.standard.integer(forKey: "frequency")))" + "day(s)"
+        
+        // Test push notification
+        let calendar = Calendar.current
+        let localTime = calendar.date(byAdding: .hour, value: -7, to: date as Date)
+        let notificationTime = calendar.date(byAdding: .minute, value: 1, to: localTime! as Date)
+        print("Notification date: \(notificationTime)")
+        let delegate = UIApplication.shared.delegate as? AppDelegate
+        delegate?.scheduleNotification(at: notificationTime!)
     }
     
     override func didReceiveMemoryWarning() {

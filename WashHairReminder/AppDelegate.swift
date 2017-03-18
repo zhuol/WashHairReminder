@@ -7,17 +7,62 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    func scheduleNotification(at date: Date) {
+        let calendar = Calendar(identifier: .gregorian)
+        let components = calendar.dateComponents(in: .current, from: date)
+        let newComponents = DateComponents(calendar: calendar, timeZone: .current, month: components.month, day: components.day, hour: components.hour, minute: components.minute)
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: newComponents, repeats: false)
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Hair Wash Reminder"
+        content.body = "Just a reminder that today you need to wash hair."
+        content.sound = UNNotificationSound.default()
+        content.categoryIdentifier = "WashHair"
+        
+        
+        // TODO: logo.png is not loadable....need to figure it out.
+        if let path = Bundle.main.path(forResource: "logo", ofType: "png") {
+            let url = URL(fileURLWithPath: path)
+            
+            do {
+                let attachment = try UNNotificationAttachment(identifier: "logo", url: url, options: nil)
+                content.attachments = [attachment]
+            } catch {
+                print("The attachment was not loaded.")
+            }
+        }
+        
+        let request = UNNotificationRequest(identifier: "textNotification", content: content, trigger: trigger)
+        
+        UNUserNotificationCenter.current().delegate = self
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        UNUserNotificationCenter.current().add(request) {(error) in
+            if let error = error {
+                print("Uh oh! We had an error: \(error)")
+            }
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) {(accepted, error) in
+            if !accepted {
+                print("Notification access denied.")
+            }
+        }
+        
+        let action = UNNotificationAction(identifier: "remindLater", title: "Remind me later", options: [])
+        let category = UNNotificationCategory(identifier: "WashHair", actions: [action], intentIdentifiers: [], options: [])
+        UNUserNotificationCenter.current().setNotificationCategories([category])
+        
+        return true    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -32,15 +77,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }
+}
 
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        if response.actionIdentifier == "remindLater" {
+            let newDate = Date(timeInterval: 900, since: Date())
+            scheduleNotification(at: newDate)
+        }
     }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-
 }
 

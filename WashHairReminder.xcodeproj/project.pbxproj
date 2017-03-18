@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ABF826F1E7D0DD500DC77B7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF826E1E7D0DD500DC77B7 /* logo.png */; };
 		9FC96C491C5D02120064708F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC96C481C5D02120064708F /* AppDelegate.swift */; };
 		9FC96C4B1C5D02120064708F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC96C4A1C5D02120064708F /* ViewController.swift */; };
 		9FC96C4E1C5D02120064708F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC96C4C1C5D02120064708F /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5ABF826E1E7D0DD500DC77B7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		9FC96C451C5D02120064708F /* WashHairReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashHairReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC96C481C5D02120064708F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC96C4A1C5D02120064708F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		9FC96C471C5D02120064708F /* WashHairReminder */ = {
 			isa = PBXGroup;
 			children = (
+				5ABF826E1E7D0DD500DC77B7 /* logo.png */,
 				9FC96C481C5D02120064708F /* AppDelegate.swift */,
 				9FC96C4A1C5D02120064708F /* ViewController.swift */,
 				9FC96C4C1C5D02120064708F /* Main.storyboard */,
@@ -222,6 +225,11 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 99668XV7VA;
 						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					9FC96C581C5D02120064708F = {
 						CreatedOnToolsVersion = 7.2;
@@ -260,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABF826F1E7D0DD500DC77B7 /* logo.png in Resources */,
 				9FC96C531C5D02120064708F /* LaunchScreen.storyboard in Resources */,
 				9FC96C501C5D02120064708F /* Assets.xcassets in Resources */,
 				9FC96C4E1C5D02120064708F /* Main.storyboard in Resources */,
@@ -441,6 +450,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 99668XV7VA;
 				INFOPLIST_FILE = WashHairReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.WashHairReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,6 +467,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 99668XV7VA;
 				INFOPLIST_FILE = WashHairReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuo.WashHairReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";

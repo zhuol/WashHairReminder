@@ -56,7 +56,7 @@ class Settings : UIViewController, UIPickerViewDataSource, UIPickerViewDelegate 
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        print(pickerDataSource[row])
+        //print(pickerDataSource[row])
         UserDefaults.standard.set(pickerDataSource[row], forKey: "frequency")
     }
     
@@ -64,8 +64,15 @@ class Settings : UIViewController, UIPickerViewDataSource, UIPickerViewDelegate 
         let componenets = Calendar.current.dateComponents([.year, .month, .day], from: sender.date)
         if let day = componenets.day, let month = componenets.month, let year = componenets.year {
             let currentDate = "\(year)-\(month)-\(day)"
-            print(currentDate)
+            //print(currentDate)
             UserDefaults.standard.set(currentDate, forKey: "startDate")
         }
+    }
+    
+    @IBAction func datePickerDidSelectNewDate(_ sender: UIDatePicker) {
+        let selectedDate = sender.date
+        print("Selected date: \(selectedDate)")
+        let delegate = UIApplication.shared.delegate as? AppDelegate
+        delegate?.scheduleNotification(at: selectedDate)
     }
 }
