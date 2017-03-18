@@ -14,9 +14,11 @@ class TellMe : UIViewController {
     let defaultFrequency = 1
     
     @IBOutlet weak var TellMeWashHairOrNot: UIButton!
-    @IBOutlet weak var washHairResult: UILabel!
     @IBOutlet weak var currentDate: UILabel!
     @IBOutlet weak var frequency: UILabel!
+    @IBOutlet weak var todayValue: UILabel!
+    @IBOutlet weak var washAnswer: UILabel!
+    @IBOutlet weak var currentFrequencyValue: UILabel!
     
     override func viewDidLoad() {
         UIApplication.shared.isStatusBarHidden = true
@@ -29,11 +31,11 @@ class TellMe : UIViewController {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         let dateString = dateFormatter.string(from: date as Date)
-        currentDate.text = "Today is " + dateString
+        todayValue.text = dateString
         
         // Current Frequency
         // TODO: Handle empty value for the first time
-        frequency.text = "Frequency is " + "\(Int(UserDefaults.standard.integer(forKey: "frequency")))"
+        currentFrequencyValue.text = "Every " + "\(Int(UserDefaults.standard.integer(forKey: "frequency")))" + "day(s)"
     }
     
     override func didReceiveMemoryWarning() {
@@ -68,10 +70,10 @@ class TellMe : UIViewController {
             currentFrequency = 1
         }
         if(daysDiff % currentFrequency == 0){
-            washHairResult.text = "Wash Hair Today"
+            washAnswer.text = "Wash Hair Today"
         }
         else{
-            washHairResult.text = "Wash Hair Tomorrow"
+            washAnswer.text = "Wash Hair Tomorrow"
         }
     }
 }
