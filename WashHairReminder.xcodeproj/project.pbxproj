@@ -111,7 +111,6 @@
 		9FC96C471C5D02120064708F /* WashHairReminder */ = {
 			isa = PBXGroup;
 			children = (
-				5ABF826E1E7D0DD500DC77B7 /* logo.png */,
 				9FC96C481C5D02120064708F /* AppDelegate.swift */,
 				9FC96C4A1C5D02120064708F /* ViewController.swift */,
 				9FC96C4C1C5D02120064708F /* Main.storyboard */,
@@ -121,7 +120,7 @@
 				9FC96C7B1C5D166A0064708F /* BackTableVC.swift */,
 				9FC96C4F1C5D02120064708F /* Assets.xcassets */,
 				9FC96C511C5D02120064708F /* LaunchScreen.storyboard */,
-				9FC96C761C5D03530064708F /* Support Files */,
+				9FC96C761C5D03530064708F /* WashHairReminder */,
 			);
 			path = WashHairReminder;
 			sourceTree = "<group>";
@@ -144,15 +143,16 @@
 			path = WashHairReminderUITests;
 			sourceTree = "<group>";
 		};
-		9FC96C761C5D03530064708F /* Support Files */ = {
+		9FC96C761C5D03530064708F /* WashHairReminder */ = {
 			isa = PBXGroup;
 			children = (
+				5ABF826E1E7D0DD500DC77B7 /* logo.png */,
 				9FC96C781C5D03720064708F /* SWRevealViewController.h */,
 				9FC96C791C5D03720064708F /* SWRevealViewController.m */,
 				9FC96C541C5D02120064708F /* Info.plist */,
 				9FC96C771C5D03720064708F /* WashHairReminder-Bridging-Header.h */,
 			);
-			name = "Support Files";
+			name = WashHairReminder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

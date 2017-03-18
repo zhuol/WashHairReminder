@@ -27,8 +27,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         content.sound = UNNotificationSound.default()
         content.categoryIdentifier = "WashHair"
         
-        
-        // TODO: logo.png is not loadable....need to figure it out.
         if let path = Bundle.main.path(forResource: "logo", ofType: "png") {
             let url = URL(fileURLWithPath: path)
             
@@ -38,6 +36,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             } catch {
                 print("The attachment was not loaded.")
             }
+        }
+        else {
+            print ("File is not found.")
         }
         
         let request = UNNotificationRequest(identifier: "textNotification", content: content, trigger: trigger)
