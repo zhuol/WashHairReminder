@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1DC30416B5C21BCE55A893 /* Pods_WashHairReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B242BF2085FB44A10DA9EDE8 /* Pods_WashHairReminderTests.framework */; };
 		5ABF826F1E7D0DD500DC77B7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF826E1E7D0DD500DC77B7 /* logo.png */; };
+		6AA8B60FDD55E79E95E0F1E2 /* Pods_WashHairReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6FD30E24ED9BD5995B2207 /* Pods_WashHairReminderUITests.framework */; };
 		9FC96C491C5D02120064708F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC96C481C5D02120064708F /* AppDelegate.swift */; };
 		9FC96C4B1C5D02120064708F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC96C4A1C5D02120064708F /* ViewController.swift */; };
 		9FC96C4E1C5D02120064708F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC96C4C1C5D02120064708F /* Main.storyboard */; };
@@ -20,6 +22,7 @@
 		9FC96C7E1C5D3A130064708F /* TellMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC96C7D1C5D3A130064708F /* TellMe.swift */; };
 		9FC96C801C5D3A810064708F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC96C7F1C5D3A810064708F /* Settings.swift */; };
 		9FC96C821C5D3A970064708F /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC96C811C5D3A970064708F /* Analysis.swift */; };
+		ACE1DE263FCD439D57B74CF5 /* Pods_WashHairReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1487EC345F5696F583FACD /* Pods_WashHairReminder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1E0930C80DD5F285F6CAB8 /* Pods-WashHairReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashHairReminderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WashHairReminderUITests/Pods-WashHairReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0EEAEECB811D71BC80B0962B /* Pods-WashHairReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashHairReminderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WashHairReminderTests/Pods-WashHairReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1202C3617CBE5F61BFAF1A01 /* Pods-WashHairReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashHairReminderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashHairReminderTests/Pods-WashHairReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		384BB642D72DDE4156456BFC /* Pods-WashHairReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashHairReminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WashHairReminder/Pods-WashHairReminder.debug.xcconfig"; sourceTree = "<group>"; };
 		5ABF826E1E7D0DD500DC77B7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		9FC96C451C5D02120064708F /* WashHairReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashHairReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC96C481C5D02120064708F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +68,11 @@
 		9FC96C7D1C5D3A130064708F /* TellMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TellMe.swift; sourceTree = "<group>"; };
 		9FC96C7F1C5D3A810064708F /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		9FC96C811C5D3A970064708F /* Analysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
+		A71C87D95A5B89AC3424B469 /* Pods-WashHairReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashHairReminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashHairReminder/Pods-WashHairReminder.release.xcconfig"; sourceTree = "<group>"; };
+		AC1487EC345F5696F583FACD /* Pods_WashHairReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashHairReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B242BF2085FB44A10DA9EDE8 /* Pods_WashHairReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashHairReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C565D35BDEB01B1DA6F4513C /* Pods-WashHairReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashHairReminderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashHairReminderUITests/Pods-WashHairReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF6FD30E24ED9BD5995B2207 /* Pods_WashHairReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashHairReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE1DE263FCD439D57B74CF5 /* Pods_WashHairReminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1DC30416B5C21BCE55A893 /* Pods_WashHairReminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA8B60FDD55E79E95E0F1E2 /* Pods_WashHairReminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EC5B2ECD2A09A90BFAC5F02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				384BB642D72DDE4156456BFC /* Pods-WashHairReminder.debug.xcconfig */,
+				A71C87D95A5B89AC3424B469 /* Pods-WashHairReminder.release.xcconfig */,
+				0EEAEECB811D71BC80B0962B /* Pods-WashHairReminderTests.debug.xcconfig */,
+				1202C3617CBE5F61BFAF1A01 /* Pods-WashHairReminderTests.release.xcconfig */,
+				0E1E0930C80DD5F285F6CAB8 /* Pods-WashHairReminderUITests.debug.xcconfig */,
+				C565D35BDEB01B1DA6F4513C /* Pods-WashHairReminderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		813BD3E97369D2C6325B17F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC1487EC345F5696F583FACD /* Pods_WashHairReminder.framework */,
+				B242BF2085FB44A10DA9EDE8 /* Pods_WashHairReminderTests.framework */,
+				CF6FD30E24ED9BD5995B2207 /* Pods_WashHairReminderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9FC96C3C1C5D02120064708F = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +133,8 @@
 				9FC96C5C1C5D02120064708F /* WashHairReminderTests */,
 				9FC96C671C5D02130064708F /* WashHairReminderUITests */,
 				9FC96C461C5D02120064708F /* Products */,
+				3EC5B2ECD2A09A90BFAC5F02 /* Pods */,
+				813BD3E97369D2C6325B17F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC96C6D1C5D02130064708F /* Build configuration list for PBXNativeTarget "WashHairReminder" */;
 			buildPhases = (
+				0A4610107F6092358EAF623F /* [CP] Check Pods Manifest.lock */,
 				9FC96C411C5D02120064708F /* Sources */,
 				9FC96C421C5D02120064708F /* Frameworks */,
 				9FC96C431C5D02120064708F /* Resources */,
+				BB72E001636C7C5017406569 /* [CP] Embed Pods Frameworks */,
+				236E28DC1060732D65141A3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC96C701C5D02130064708F /* Build configuration list for PBXNativeTarget "WashHairReminderTests" */;
 			buildPhases = (
+				25FDD658F9D9C061B0683F35 /* [CP] Check Pods Manifest.lock */,
 				9FC96C551C5D02120064708F /* Sources */,
 				9FC96C561C5D02120064708F /* Frameworks */,
 				9FC96C571C5D02120064708F /* Resources */,
+				DBEC0057714CC61E46B15A3C /* [CP] Embed Pods Frameworks */,
+				CEC06C1E65D14F4F2BDB6914 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC96C731C5D02130064708F /* Build configuration list for PBXNativeTarget "WashHairReminderUITests" */;
 			buildPhases = (
+				1056E0B493420FD9C554E184 /* [CP] Check Pods Manifest.lock */,
 				9FC96C601C5D02120064708F /* Sources */,
 				9FC96C611C5D02120064708F /* Frameworks */,
 				9FC96C621C5D02120064708F /* Resources */,
+				C3B1C51779E92937849888D0 /* [CP] Embed Pods Frameworks */,
+				67028A3AAAF22A222CC08DAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +340,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A4610107F6092358EAF623F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1056E0B493420FD9C554E184 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		236E28DC1060732D65141A3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WashHairReminder/Pods-WashHairReminder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25FDD658F9D9C061B0683F35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67028A3AAAF22A222CC08DAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WashHairReminderUITests/Pods-WashHairReminderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB72E001636C7C5017406569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WashHairReminder/Pods-WashHairReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B1C51779E92937849888D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WashHairReminderUITests/Pods-WashHairReminderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC06C1E65D14F4F2BDB6914 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WashHairReminderTests/Pods-WashHairReminderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBEC0057714CC61E46B15A3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WashHairReminderTests/Pods-WashHairReminderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FC96C411C5D02120064708F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -360,7 +547,7 @@
 		9FC96C6B1C5D02130064708F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -406,7 +593,7 @@
 		9FC96C6C1C5D02130064708F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -445,6 +632,7 @@
 		};
 		9FC96C6E1C5D02130064708F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384BB642D72DDE4156456BFC /* Pods-WashHairReminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -462,6 +650,7 @@
 		};
 		9FC96C6F1C5D02130064708F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71C87D95A5B89AC3424B469 /* Pods-WashHairReminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -478,6 +667,7 @@
 		};
 		9FC96C711C5D02130064708F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEAEECB811D71BC80B0962B /* Pods-WashHairReminderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WashHairReminderTests/Info.plist;
@@ -491,6 +681,7 @@
 		};
 		9FC96C721C5D02130064708F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1202C3617CBE5F61BFAF1A01 /* Pods-WashHairReminderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WashHairReminderTests/Info.plist;
@@ -504,6 +695,7 @@
 		};
 		9FC96C741C5D02130064708F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1E0930C80DD5F285F6CAB8 /* Pods-WashHairReminderUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WashHairReminderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -517,6 +709,7 @@
 		};
 		9FC96C751C5D02130064708F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C565D35BDEB01B1DA6F4513C /* Pods-WashHairReminderUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WashHairReminderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

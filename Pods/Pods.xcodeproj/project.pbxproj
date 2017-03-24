@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BB641C945A5AAE0428690DF053A0B2 /* Pods-WashHairReminder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 639043B8CC6D840E51F060DE2EAD2BDB /* Pods-WashHairReminder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD08F1B71B3E9231A92F84745DF0662 /* Pods-WashHairReminderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AAC53285E56A5C79EC746B93768ED00 /* Pods-WashHairReminderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F72B13D64EB67F17BE4F6F1DA3A4898 /* DateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28BE89FB56E909707F8D96521E12CDB /* DateTimePicker.swift */; };
+		21513A01ECF94862D88B129214E2DE57 /* Pods-WashHairReminderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7A6FD2C9BEE250FFB9173EA1E53BAE /* Pods-WashHairReminderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FBC6786A74AF9F2C2F8797F0193FCDD /* Pods-WashHairReminder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA79C65F437A13C5FEB6B0DCBB937F6 /* Pods-WashHairReminder-dummy.m */; };
+		47AD20C326B152D8E712B2688DD5F76A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		4E58438F8BB95D98711E246F4516F17A /* StepCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A7CB7311C5E3288F889417C11AB47 /* StepCollectionViewFlowLayout.swift */; };
+		6D4AAFADAF67FC01B163867FD25BCC18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6D6E90C455D6AB4A7C7D0B4AE0E611BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8CADCF3303FB981E9F1D4670B540AEB8 /* DateTimePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A77D27D0D4D0A642481288062C8A33 /* DateTimePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94BDD181C7045F69EA1B67AE7F184630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9786B0CC39307C2C247AAF915CBD65B7 /* Pods-WashHairReminderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F459CBE34F06B28AA989B85772555DA /* Pods-WashHairReminderTests-dummy.m */; };
+		B47CF11A8F5401FCCE042414CC58F555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		C33B83A0DF5502DFFA0E1BEEA8074686 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19390867318E95E12FFE7B6A3C1572F7 /* DateCollectionViewCell.swift */; };
+		DC5265617A5609213FCFF90275216F9C /* DateTimePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C998C2896018B749E6BF93D86000F4 /* DateTimePicker-dummy.m */; };
+		F234DEE9D6F5FDCA0371AE2CAEFCC3F3 /* Pods-WashHairReminderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52F3106D02986D6F25C89A990FFB91D /* Pods-WashHairReminderUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04FBC9B9AC6B3AD4804B1CF3202D544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA73695D1E57996C128686ADB24DCC2;
+			remoteInfo = DateTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1C53F8D79395A9170AB7C64957891C /* Pods-WashHairReminderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WashHairReminderUITests-resources.sh"; sourceTree = "<group>"; };
+		0D88EC0A7064E3117E2C2D14087B6494 /* Pods-WashHairReminderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WashHairReminderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EDE2814F755826AA8FBA448FF75D82A /* Pods_WashHairReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WashHairReminderUITests.framework; path = "Pods-WashHairReminderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19390867318E95E12FFE7B6A3C1572F7 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateCollectionViewCell.swift; path = Source/DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		35716744FB87EEFDB82FB3402246C20E /* Pods-WashHairReminder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WashHairReminder-frameworks.sh"; sourceTree = "<group>"; };
+		3A5F934DA1D012E5E3035C31E03F4067 /* Pods-WashHairReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WashHairReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB1BBE89019F41DF9067B1B5C5473E8 /* Pods-WashHairReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WashHairReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F459CBE34F06B28AA989B85772555DA /* Pods-WashHairReminderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WashHairReminderTests-dummy.m"; sourceTree = "<group>"; };
+		455F5D005BB17244DFF397320359BA90 /* Pods-WashHairReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WashHairReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47DBE49E8CCF41FB06FE2CEA19787053 /* Pods-WashHairReminder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WashHairReminder-resources.sh"; sourceTree = "<group>"; };
+		5C64D5053A8A2226903EDC5DB9A7D460 /* Pods-WashHairReminderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WashHairReminderTests-frameworks.sh"; sourceTree = "<group>"; };
+		600BCA561038E5DCD82BB3CDBE776552 /* Pods-WashHairReminder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WashHairReminder-acknowledgements.plist"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		639043B8CC6D840E51F060DE2EAD2BDB /* Pods-WashHairReminder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WashHairReminder-umbrella.h"; sourceTree = "<group>"; };
+		69474C63C75F5A6C0DE00FFE6C5A5783 /* Pods-WashHairReminderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WashHairReminderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6AAC53285E56A5C79EC746B93768ED00 /* Pods-WashHairReminderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WashHairReminderUITests-umbrella.h"; sourceTree = "<group>"; };
+		6C9ECC3E54BE5DDCAE7DE82602C785DD /* Pods-WashHairReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WashHairReminder.release.xcconfig"; sourceTree = "<group>"; };
+		6DDD9AC3E777D9EDDEA9B10D87B6FD75 /* Pods-WashHairReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WashHairReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		6F84A70A51516510D7665E41086A1800 /* Pods-WashHairReminderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WashHairReminderUITests.modulemap"; sourceTree = "<group>"; };
+		72C998C2896018B749E6BF93D86000F4 /* DateTimePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateTimePicker-dummy.m"; sourceTree = "<group>"; };
+		7D4434E9AA6DFE647C90A46FCA4E6E94 /* Pods-WashHairReminder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WashHairReminder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		805368675C264A1C599ABCC574D40AA0 /* Pods-WashHairReminderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WashHairReminderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80EB81A94B255CF13478C28ABF4AA40E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E16F3E4A2A4EBF580CECC8B4744909E /* Pods-WashHairReminderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WashHairReminderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F278F011677EEAB3996BB81CC19A406 /* Pods-WashHairReminderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WashHairReminderTests-resources.sh"; sourceTree = "<group>"; };
+		934F519961B3190FF80E8F29BDD0FB4D /* Pods-WashHairReminderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WashHairReminderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D412BDF424B323B033E4189B3C7675 /* DateTimePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DateTimePicker.modulemap; sourceTree = "<group>"; };
+		9785EE0CB14499EB6C869EA5EE04D44F /* DateTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateTimePicker.framework; path = DateTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A86E748637A405F46BACDD328CB7F69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5A7CB7311C5E3288F889417C11AB47 /* StepCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepCollectionViewFlowLayout.swift; path = Source/StepCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		B4BE621ACA8124547253667698818837 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTimePicker.xcconfig; sourceTree = "<group>"; };
+		BCA79C65F437A13C5FEB6B0DCBB937F6 /* Pods-WashHairReminder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WashHairReminder-dummy.m"; sourceTree = "<group>"; };
+		BED8A4B1492C41A008D9ED531595D97B /* Pods-WashHairReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WashHairReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB7A6FD2C9BEE250FFB9173EA1E53BAE /* Pods-WashHairReminderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WashHairReminderTests-umbrella.h"; sourceTree = "<group>"; };
+		D28BE89FB56E909707F8D96521E12CDB /* DateTimePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTimePicker.swift; path = Source/DateTimePicker.swift; sourceTree = "<group>"; };
+		D2FAA12DC50983D1F4072C18ACDCA31B /* Pods-WashHairReminder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WashHairReminder.modulemap"; sourceTree = "<group>"; };
+		DB8CB7CFD8D2A77F91600649E4347075 /* DateTimePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-prefix.pch"; sourceTree = "<group>"; };
+		E1EA667C68E6566B01914C1B9D6895D4 /* Pods_WashHairReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WashHairReminderTests.framework; path = "Pods-WashHairReminderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3692152AA4579630D3FB799E9C30500 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52F3106D02986D6F25C89A990FFB91D /* Pods-WashHairReminderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WashHairReminderUITests-dummy.m"; sourceTree = "<group>"; };
+		E6A77D27D0D4D0A642481288062C8A33 /* DateTimePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTimePicker-umbrella.h"; sourceTree = "<group>"; };
+		EEA79293FEA95A4C3A21EE46106A97F5 /* Pods_WashHairReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WashHairReminder.framework; path = "Pods-WashHairReminder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5629BE24A44A52A36F8E14406301D43 /* Pods-WashHairReminderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WashHairReminderTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B841F97CB08F79DB8B8D4A7AE7EAE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4AAFADAF67FC01B163867FD25BCC18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED06BC5CA75D152BD61C1D33DAA5022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47CF11A8F5401FCCE042414CC58F555 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A405973E691E30AB26DC867EC0927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6E90C455D6AB4A7C7D0B4AE0E611BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFCBE402EE97ED48C5ED20811A7110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BDD181C7045F69EA1B67AE7F184630 /* Foundation.framework in Frameworks */,
+				47AD20C326B152D8E712B2688DD5F76A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05106262279FB240940BE34F78B82B3E /* DateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				19390867318E95E12FFE7B6A3C1572F7 /* DateCollectionViewCell.swift */,
+				D28BE89FB56E909707F8D96521E12CDB /* DateTimePicker.swift */,
+				AC5A7CB7311C5E3288F889417C11AB47 /* StepCollectionViewFlowLayout.swift */,
+				1820509E77E6E71D29A4B356451BC8A7 /* Support Files */,
+			);
+			name = DateTimePicker;
+			path = DateTimePicker;
+			sourceTree = "<group>";
+		};
+		0E6BF7F8422A16DCEB358633E1B3B951 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A3DD370E56031A08038C95D85F58FFD /* Pods-WashHairReminder */,
+				4C1127EB1646BA17A5D8B6EF40EE43E5 /* Pods-WashHairReminderTests */,
+				87BE9B8AE2C080CC854C089F8FB4D106 /* Pods-WashHairReminderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1820509E77E6E71D29A4B356451BC8A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D412BDF424B323B033E4189B3C7675 /* DateTimePicker.modulemap */,
+				B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */,
+				72C998C2896018B749E6BF93D86000F4 /* DateTimePicker-dummy.m */,
+				DB8CB7CFD8D2A77F91600649E4347075 /* DateTimePicker-prefix.pch */,
+				E6A77D27D0D4D0A642481288062C8A33 /* DateTimePicker-umbrella.h */,
+				E3692152AA4579630D3FB799E9C30500 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateTimePicker";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C1127EB1646BA17A5D8B6EF40EE43E5 /* Pods-WashHairReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4BE621ACA8124547253667698818837 /* Info.plist */,
+				F5629BE24A44A52A36F8E14406301D43 /* Pods-WashHairReminderTests.modulemap */,
+				805368675C264A1C599ABCC574D40AA0 /* Pods-WashHairReminderTests-acknowledgements.markdown */,
+				0D88EC0A7064E3117E2C2D14087B6494 /* Pods-WashHairReminderTests-acknowledgements.plist */,
+				3F459CBE34F06B28AA989B85772555DA /* Pods-WashHairReminderTests-dummy.m */,
+				5C64D5053A8A2226903EDC5DB9A7D460 /* Pods-WashHairReminderTests-frameworks.sh */,
+				8F278F011677EEAB3996BB81CC19A406 /* Pods-WashHairReminderTests-resources.sh */,
+				CB7A6FD2C9BEE250FFB9173EA1E53BAE /* Pods-WashHairReminderTests-umbrella.h */,
+				3A5F934DA1D012E5E3035C31E03F4067 /* Pods-WashHairReminderTests.debug.xcconfig */,
+				3BB1BBE89019F41DF9067B1B5C5473E8 /* Pods-WashHairReminderTests.release.xcconfig */,
+			);
+			name = "Pods-WashHairReminderTests";
+			path = "Target Support Files/Pods-WashHairReminderTests";
+			sourceTree = "<group>";
+		};
+		7A3DD370E56031A08038C95D85F58FFD /* Pods-WashHairReminder */ = {
+			isa = PBXGroup;
+			children = (
+				9A86E748637A405F46BACDD328CB7F69 /* Info.plist */,
+				D2FAA12DC50983D1F4072C18ACDCA31B /* Pods-WashHairReminder.modulemap */,
+				7D4434E9AA6DFE647C90A46FCA4E6E94 /* Pods-WashHairReminder-acknowledgements.markdown */,
+				600BCA561038E5DCD82BB3CDBE776552 /* Pods-WashHairReminder-acknowledgements.plist */,
+				BCA79C65F437A13C5FEB6B0DCBB937F6 /* Pods-WashHairReminder-dummy.m */,
+				35716744FB87EEFDB82FB3402246C20E /* Pods-WashHairReminder-frameworks.sh */,
+				47DBE49E8CCF41FB06FE2CEA19787053 /* Pods-WashHairReminder-resources.sh */,
+				639043B8CC6D840E51F060DE2EAD2BDB /* Pods-WashHairReminder-umbrella.h */,
+				6DDD9AC3E777D9EDDEA9B10D87B6FD75 /* Pods-WashHairReminder.debug.xcconfig */,
+				6C9ECC3E54BE5DDCAE7DE82602C785DD /* Pods-WashHairReminder.release.xcconfig */,
+			);
+			name = "Pods-WashHairReminder";
+			path = "Target Support Files/Pods-WashHairReminder";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				918B9C8D5EEDAE69157CC9BD42764CB6 /* Pods */,
+				D1625301D53D95CB5076882938E28BF5 /* Products */,
+				0E6BF7F8422A16DCEB358633E1B3B951 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87BE9B8AE2C080CC854C089F8FB4D106 /* Pods-WashHairReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80EB81A94B255CF13478C28ABF4AA40E /* Info.plist */,
+				6F84A70A51516510D7665E41086A1800 /* Pods-WashHairReminderUITests.modulemap */,
+				8E16F3E4A2A4EBF580CECC8B4744909E /* Pods-WashHairReminderUITests-acknowledgements.markdown */,
+				934F519961B3190FF80E8F29BDD0FB4D /* Pods-WashHairReminderUITests-acknowledgements.plist */,
+				E52F3106D02986D6F25C89A990FFB91D /* Pods-WashHairReminderUITests-dummy.m */,
+				69474C63C75F5A6C0DE00FFE6C5A5783 /* Pods-WashHairReminderUITests-frameworks.sh */,
+				0A1C53F8D79395A9170AB7C64957891C /* Pods-WashHairReminderUITests-resources.sh */,
+				6AAC53285E56A5C79EC746B93768ED00 /* Pods-WashHairReminderUITests-umbrella.h */,
+				455F5D005BB17244DFF397320359BA90 /* Pods-WashHairReminderUITests.debug.xcconfig */,
+				BED8A4B1492C41A008D9ED531595D97B /* Pods-WashHairReminderUITests.release.xcconfig */,
+			);
+			name = "Pods-WashHairReminderUITests";
+			path = "Target Support Files/Pods-WashHairReminderUITests";
+			sourceTree = "<group>";
+		};
+		918B9C8D5EEDAE69157CC9BD42764CB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05106262279FB240940BE34F78B82B3E /* DateTimePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1625301D53D95CB5076882938E28BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9785EE0CB14499EB6C869EA5EE04D44F /* DateTimePicker.framework */,
+				EEA79293FEA95A4C3A21EE46106A97F5 /* Pods_WashHairReminder.framework */,
+				E1EA667C68E6566B01914C1B9D6895D4 /* Pods_WashHairReminderTests.framework */,
+				0EDE2814F755826AA8FBA448FF75D82A /* Pods_WashHairReminderUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		484E00647AA13795ECE9F76653171184 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB641C945A5AAE0428690DF053A0B2 /* Pods-WashHairReminder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6E60E06147F58E5C206F83EA5513C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21513A01ECF94862D88B129214E2DE57 /* Pods-WashHairReminderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BB1E427492ABFE32C2A6EE84E84F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CADCF3303FB981E9F1D4670B540AEB8 /* DateTimePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8552A8514CA0000F3EC342C8255A10D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD08F1B71B3E9231A92F84745DF0662 /* Pods-WashHairReminderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		894A875A4A3DF3EA2FAA97A30DD65D2A /* Pods-WashHairReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50E6295260603288009C30FC88B2EBB /* Build configuration list for PBXNativeTarget "Pods-WashHairReminderUITests" */;
+			buildPhases = (
+				19494017B1047EEE21E19CC40B4E5B92 /* Sources */,
+				4B841F97CB08F79DB8B8D4A7AE7EAE03 /* Frameworks */,
+				A8552A8514CA0000F3EC342C8255A10D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WashHairReminderUITests";
+			productName = "Pods-WashHairReminderUITests";
+			productReference = 0EDE2814F755826AA8FBA448FF75D82A /* Pods_WashHairReminderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FA73695D1E57996C128686ADB24DCC2 /* DateTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36387C6EE242CBCDB1EFAD27029AB6B7 /* Build configuration list for PBXNativeTarget "DateTimePicker" */;
+			buildPhases = (
+				3F0B02B6F799F05D0235A03313A2EF65 /* Sources */,
+				CEFFCBE402EE97ED48C5ED20811A7110 /* Frameworks */,
+				94B3BB1E427492ABFE32C2A6EE84E84F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateTimePicker;
+			productName = DateTimePicker;
+			productReference = 9785EE0CB14499EB6C869EA5EE04D44F /* DateTimePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9F645ED4499B04CB0433E4DB78B8704 /* Pods-WashHairReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB33FC90780F727EC922C96099903805 /* Build configuration list for PBXNativeTarget "Pods-WashHairReminder" */;
+			buildPhases = (
+				CFAF8C814594564BF86EFA3C8775CA6A /* Sources */,
+				6ED06BC5CA75D152BD61C1D33DAA5022 /* Frameworks */,
+				484E00647AA13795ECE9F76653171184 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B58866617922724CDFF8420444D8FD1C /* PBXTargetDependency */,
+			);
+			name = "Pods-WashHairReminder";
+			productName = "Pods-WashHairReminder";
+			productReference = EEA79293FEA95A4C3A21EE46106A97F5 /* Pods_WashHairReminder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7316B6A707EC690AB438E63073F11A4 /* Pods-WashHairReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED00294C5ECE4DED9C2692759B6CEA40 /* Build configuration list for PBXNativeTarget "Pods-WashHairReminderTests" */;
+			buildPhases = (
+				085065DFA57D8DC80D692F406B882C40 /* Sources */,
+				883A405973E691E30AB26DC867EC0927 /* Frameworks */,
+				8E6E60E06147F58E5C206F83EA5513C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WashHairReminderTests";
+			productName = "Pods-WashHairReminderTests";
+			productReference = E1EA667C68E6566B01914C1B9D6895D4 /* Pods_WashHairReminderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D1625301D53D95CB5076882938E28BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA73695D1E57996C128686ADB24DCC2 /* DateTimePicker */,
+				C9F645ED4499B04CB0433E4DB78B8704 /* Pods-WashHairReminder */,
+				E7316B6A707EC690AB438E63073F11A4 /* Pods-WashHairReminderTests */,
+				894A875A4A3DF3EA2FAA97A30DD65D2A /* Pods-WashHairReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085065DFA57D8DC80D692F406B882C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9786B0CC39307C2C247AAF915CBD65B7 /* Pods-WashHairReminderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19494017B1047EEE21E19CC40B4E5B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F234DEE9D6F5FDCA0371AE2CAEFCC3F3 /* Pods-WashHairReminderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0B02B6F799F05D0235A03313A2EF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33B83A0DF5502DFFA0E1BEEA8074686 /* DateCollectionViewCell.swift in Sources */,
+				DC5265617A5609213FCFF90275216F9C /* DateTimePicker-dummy.m in Sources */,
+				1F72B13D64EB67F17BE4F6F1DA3A4898 /* DateTimePicker.swift in Sources */,
+				4E58438F8BB95D98711E246F4516F17A /* StepCollectionViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAF8C814594564BF86EFA3C8775CA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBC6786A74AF9F2C2F8797F0193FCDD /* Pods-WashHairReminder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B58866617922724CDFF8420444D8FD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateTimePicker;
+			target = 9FA73695D1E57996C128686ADB24DCC2 /* DateTimePicker */;
+			targetProxy = B04FBC9B9AC6B3AD4804B1CF3202D544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F3556EE89716324003C03F4A763CCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455F5D005BB17244DFF397320359BA90 /* Pods-WashHairReminderUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WashHairReminderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WashHairReminderUITests/Pods-WashHairReminderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WashHairReminderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		750E107EC98EA785368210726C2CE59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5F934DA1D012E5E3035C31E03F4067 /* Pods-WashHairReminderTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WashHairReminderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WashHairReminderTests/Pods-WashHairReminderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WashHairReminderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FA21C07773DA206170FFB8E57E0749C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDD9AC3E777D9EDDEA9B10D87B6FD75 /* Pods-WashHairReminder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WashHairReminder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WashHairReminder/Pods-WashHairReminder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WashHairReminder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A05A085BA787AF5A10F0A503AE52C24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED8A4B1492C41A008D9ED531595D97B /* Pods-WashHairReminderUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WashHairReminderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WashHairReminderUITests/Pods-WashHairReminderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WashHairReminderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6F90BF04B0577E78E53B39C36D36F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB1BBE89019F41DF9067B1B5C5473E8 /* Pods-WashHairReminderTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WashHairReminderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WashHairReminderTests/Pods-WashHairReminderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WashHairReminderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8B813DC8BD4C54D949F96D17D2C86F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateTimePicker/DateTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateTimePicker/DateTimePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DateTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E54F7371EF636128D02071CD958D1F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AB3A1D4539C799E74E87A81F8272CE /* DateTimePicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateTimePicker/DateTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DateTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DateTimePicker/DateTimePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DateTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00873593791174A23CB27536B8602C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9ECC3E54BE5DDCAE7DE82602C785DD /* Pods-WashHairReminder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WashHairReminder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WashHairReminder/Pods-WashHairReminder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WashHairReminder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36387C6EE242CBCDB1EFAD27029AB6B7 /* Build configuration list for PBXNativeTarget "DateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54F7371EF636128D02071CD958D1F8C /* Debug */,
+				D8B813DC8BD4C54D949F96D17D2C86F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB33FC90780F727EC922C96099903805 /* Build configuration list for PBXNativeTarget "Pods-WashHairReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA21C07773DA206170FFB8E57E0749C /* Debug */,
+				F00873593791174A23CB27536B8602C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50E6295260603288009C30FC88B2EBB /* Build configuration list for PBXNativeTarget "Pods-WashHairReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3556EE89716324003C03F4A763CCAD /* Debug */,
+				A05A085BA787AF5A10F0A503AE52C24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED00294C5ECE4DED9C2692759B6CEA40 /* Build configuration list for PBXNativeTarget "Pods-WashHairReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750E107EC98EA785368210726C2CE59E /* Debug */,
+				A6F90BF04B0577E78E53B39C36D36F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
